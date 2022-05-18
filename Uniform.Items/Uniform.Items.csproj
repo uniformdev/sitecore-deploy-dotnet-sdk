@@ -1,0 +1,294 @@
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A6E6C32-7D77-4184-8A55-08CFDF6CFE8F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Uniform</RootNamespace>
+    <AssemblyName>Uniform.Items</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\zzz_Uniform_Unicorn\uniformContentSitecoreSourceFolder.config" />
+    <None Include="packages.config" />
+    <None Include="Web.config">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="App_Config\Include\zzz_Uniform_Unicorn\Uniform.Unicorn.config" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Check Page Data.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Initial Content Sync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Re-Sync Page.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Re-Sync Tree.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform\Schedule Redeploy.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-Administration\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-CDN\Uniform CDN\Purge Page.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-CDN\Uniform CDN\Purge Site.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-CDN\Uniform CDN\Purge Tree.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Chunks-Uniform-CDN\Uniform CDN.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\ContentEditor-Editors\Uniform\Initial Content Sync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\ContentEditor-Editors\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Layouts\Uniform\Uniform Fake Layout.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Layouts\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module\Uniform\Modules.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module\Uniform\SiteConfigurations.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Module\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Methods\delete.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Methods\invalidate.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Networks\production.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Networks\staging.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Methods.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai\Networks.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge\Akamai.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Modules-Purge\Purge.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Renderings\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Ribbons-Default\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Strips-Uniform\Uniform\Administration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Strips-Uniform\Uniform\CDN.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Strips-Uniform\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration\ApiHostname.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration\ApiKey.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration\CpCode.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration\Hostname.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration\UploadAccountId.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageMediaContentSy\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStoragePageContentSyn\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\Branches\AttachAkamaiNetStorageMediaCon.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\Branches\AttachAkamaiNetStoragePageCont.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageContentSyncSer.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStorageMediaContentSy.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\AkamaiNetStoragePageContentSyn.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobContentSyncService\Configuration\ConnectionString.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobContentSyncService\Configuration\ContainerName.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobContentSyncService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobContentSyncService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobMediaContentSyncServi\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobPageContentSyncServic\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\Branches\AttachAzureBlobMediaContentSyn.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\Branches\AttachAzureBlobPageContentSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobContentSyncService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobMediaContentSyncServi.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobPageContentSyncServic.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Commands\Initial Sync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Content Sync Operation Status\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status\finishedDatetime.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status\startedBy.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status\startedDatetime.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status\success.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Commands.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Content Sync Operation Status.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\JavaScript Rendering\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\Renderings Folder\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\SiteConfiguration\System\Comments.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\SiteConfiguration\System\Full Deployment Requested.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\SiteConfiguration\System.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\SiteConfiguration\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\JavaScript Rendering.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\Renderings Folder.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\SiteConfiguration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\AccessToken.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\ApiUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\ClientToken.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\CpCodes.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\HostNames.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\Method.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\Network.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration\Secret.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\Branches\AttachAkamaiPurgeService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\AkamaiPurgeService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\Branches\AttachCloudflarePurgeService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration\ApiToken.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration\ChangedItemsCount.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration\HostNames.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration\RetriesCount.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration\ZoneId.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare\CloudflarePurgeService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\Branches\AttachMediaDeploymentScopeServ.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\Branches\AttachNopDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\MediaDeploymentScopeService\Configuration\MediaRoots.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\MediaDeploymentScopeService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\MediaDeploymentScopeService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\NopDeploymentService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\MediaDeploymentScopeService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core\NopDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\Branches\AttachHostedDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\HostedDeploymentService\Configuration\EnvironmentVariables.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\HostedDeploymentService\Configuration\ServiceUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\HostedDeploymentService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\HostedDeploymentService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService\HostedDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\Branches\AttachWebClientDeploymentState.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\Branches\Schedule Full Deployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\WebClientDeploymentStateServic\Configuration\PublicUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\WebClientDeploymentStateServic\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\WebClientDeploymentStateServic\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental\WebClientDeploymentStateServic.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\Branches\AttachNetlifyDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService\Configuration\ExternalSiteId.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService\Configuration\FireAndForget.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService\Configuration\NetlifyAccessToken.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify\NetlifyDeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Akamai.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Cloudflare.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Core.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\HostedService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Incremental.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment\Netlify.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService\System\Attributes.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService\System\Comments.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService\System\Enabled.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService\System.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableServicesFolder\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\Attributes.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\Database.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\Device.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\FetchHost.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\Inherits.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\Language.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration\TimestampFileName.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\AttachableServicesFolder.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration\NewConfiguration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\Branches\AttachOptimizeIntegrationServi.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\OptimizeIntegrationService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration\OptimizeIntegrationService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name\Configuration\Deployment\DeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name\Configuration\ContentSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name\Configuration\Deployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name\Content Sync History.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted\_name.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name\Configuration\Deployment\DeploymentService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name\Configuration\ContentSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name\Configuration\Deployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name\Content Sync History.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify\_name.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext\_name\Configuration\ContentSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext\_name\Configuration\Deployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext\_name\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext\_name\Content Sync History.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext\_name.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Hosted.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\Netlify.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches\SiteContext.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\Branches\AttachHostedPreviewService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\HostedPreviewService\Configuration\ServiceUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\HostedPreviewService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\HostedPreviewService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview\HostedPreviewService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\Uniform\LastSuccessfulDeployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\Uniform\PublicUrl.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\Uniform.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Deployment.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ItemBasedConfiguration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\OptimizeIntegration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Presets.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Preview.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Uniform Item.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform.yml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54444</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54444/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
