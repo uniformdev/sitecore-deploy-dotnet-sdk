@@ -128,6 +128,17 @@
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobMediaContentSyncServi.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\AzureBlobPageContentSyncServic.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\Branches\AttachFileSystemMediaContentSy.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\Branches\AttachFileSystemPageContentSyn.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemContentSyncService\Configuration\RootDirectory.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemContentSyncService\Configuration.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemContentSyncService\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemMediaContentSyncServ\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemPageContentSyncServi\__Standard Values.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\Branches.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemContentSyncService.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemMediaContentSyncServ.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem\FileSystemPageContentSyncServi.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Commands\Initial Sync.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Content Sync Operation Status\__Standard Values.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync\Site Operation Status\Operation Status\finishedDatetime.yml" />
@@ -141,6 +152,7 @@
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AkamaiNetStorage.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AWS.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\AzureBlob.yml" />
+    <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\FileSystem.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\ContentSync\InitialSync.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\JavaScript Rendering\__Standard Values.yml" />
     <Content Include="App_Data\Uniform\serialization\Deploy\Templates\Uniform\Core\Renderings Folder\__Standard Values.yml" />
