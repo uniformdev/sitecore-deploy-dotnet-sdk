@@ -68,71 +68,71 @@
     <Reference Include="Akamai.NetStorageKit, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Akamai.NetStorageKit.1.0.0\lib\Akamai.NetStorageKit.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Abstractions, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Abstractions.7.2.230222-1\lib\net462\Uniform.Abstractions.dll</HintPath>
+    <Reference Include="Uniform.Abstractions, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Abstractions.7.3.230626-1\lib\net462\Uniform.Abstractions.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.ComponentModel, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ComponentModel.7.2.230222-1\lib\net462\Uniform.ComponentModel.dll</HintPath>
+    <Reference Include="Uniform.ComponentModel, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ComponentModel.7.3.230626-1\lib\net462\Uniform.ComponentModel.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Content.Sitecore, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Content.Sitecore.7.2.230222-1\lib\net462\Uniform.Content.Sitecore.dll</HintPath>
+    <Reference Include="Uniform.Content.Sitecore, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Content.Sitecore.7.3.230626-1\lib\net462\Uniform.Content.Sitecore.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Content.Sitecore.MvcSupport, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Content.Sitecore.MvcSupport.7.2.230222-1\lib\net462\Uniform.Content.Sitecore.MvcSupport.dll</HintPath>
+    <Reference Include="Uniform.Content.Sitecore.MvcSupport, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Content.Sitecore.MvcSupport.7.3.230626-1\lib\net462\Uniform.Content.Sitecore.MvcSupport.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.ContentSync.AzureBlob, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ContentSync.AzureBlob.7.2.230222-1\lib\net462\Uniform.ContentSync.AzureBlob.dll</HintPath>
+    <Reference Include="Uniform.ContentSync.AzureBlob, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ContentSync.AzureBlob.7.3.230626-1\lib\net462\Uniform.ContentSync.AzureBlob.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.ContentSync.AkamaiNetStorage, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ContentSync.AkamaiNetStorage.7.2.230222-1\lib\net462\Uniform.ContentSync.AkamaiNetStorage.dll</HintPath>
+    <Reference Include="Uniform.ContentSync.AkamaiNetStorage, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ContentSync.AkamaiNetStorage.7.3.230626-1\lib\net462\Uniform.ContentSync.AkamaiNetStorage.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.ContentSync.AWS, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ContentSync.AWS.7.2.230222-1\lib\net462\Uniform.ContentSync.AWS.dll</HintPath>
+    <Reference Include="Uniform.ContentSync.AWS, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ContentSync.AWS.7.3.230626-1\lib\net462\Uniform.ContentSync.AWS.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.ContentSync.Core, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ContentSync.Core.7.2.230222-1\lib\net462\Uniform.ContentSync.Core.dll</HintPath>
+    <Reference Include="Uniform.ContentSync.Core, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ContentSync.Core.7.3.230626-1\lib\net462\Uniform.ContentSync.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.ContentSync.InitialSync, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ContentSync.InitialSync.7.2.230222-1\lib\net462\Uniform.ContentSync.InitialSync.dll</HintPath>
+    <Reference Include="Uniform.ContentSync.InitialSync, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ContentSync.InitialSync.7.3.230626-1\lib\net462\Uniform.ContentSync.InitialSync.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Deployment.Core, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Deployment.Core.7.2.230222-1\lib\net462\Uniform.Deployment.Core.dll</HintPath>
+    <Reference Include="Uniform.Deployment.Core, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Deployment.Core.7.3.230626-1\lib\net462\Uniform.Deployment.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Deployment.HostedService, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Deployment.HostedService.7.2.230222-1\lib\net462\Uniform.Deployment.HostedService.dll</HintPath>
+    <Reference Include="Uniform.Deployment.HostedService, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Deployment.HostedService.7.3.230626-1\lib\net462\Uniform.Deployment.HostedService.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Deployment.Incremental, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Deployment.Incremental.7.2.230222-1\lib\net462\Uniform.Deployment.Incremental.dll</HintPath>
+    <Reference Include="Uniform.Deployment.Incremental, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Deployment.Incremental.7.3.230626-1\lib\net462\Uniform.Deployment.Incremental.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Deployment.Netlify, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Deployment.Netlify.7.2.230222-1\lib\net462\Uniform.Deployment.Netlify.dll</HintPath>
+    <Reference Include="Uniform.Deployment.Netlify, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Deployment.Netlify.7.3.230626-1\lib\net462\Uniform.Deployment.Netlify.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.PurgeCache.Core, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.PurgeCache.Core.7.2.230222-1\lib\net462\Uniform.PurgeCache.Core.dll</HintPath>
+    <Reference Include="Uniform.PurgeCache.Core, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.PurgeCache.Core.7.3.230626-1\lib\net462\Uniform.PurgeCache.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.PurgeCache.Akamai, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.PurgeCache.Akamai.7.2.230222-1\lib\net462\Uniform.PurgeCache.Akamai.dll</HintPath>
+    <Reference Include="Uniform.PurgeCache.Akamai, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.PurgeCache.Akamai.7.3.230626-1\lib\net462\Uniform.PurgeCache.Akamai.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.PurgeCache.Cloudflare, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.PurgeCache.Cloudflare.7.2.230222-1\lib\net462\Uniform.PurgeCache.Cloudflare.dll</HintPath>
+    <Reference Include="Uniform.PurgeCache.Cloudflare, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.PurgeCache.Cloudflare.7.3.230626-1\lib\net462\Uniform.PurgeCache.Cloudflare.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.PurgeCache.CloudFront, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.PurgeCache.CloudFront.7.2.230222-1\lib\net462\Uniform.PurgeCache.CloudFront.dll</HintPath>
+    <Reference Include="Uniform.PurgeCache.CloudFront, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.PurgeCache.CloudFront.7.3.230626-1\lib\net462\Uniform.PurgeCache.CloudFront.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.ItemBasedConfiguration, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.ItemBasedConfiguration.7.2.230222-1\lib\net462\Uniform.ItemBasedConfiguration.dll</HintPath>
+    <Reference Include="Uniform.ItemBasedConfiguration, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.ItemBasedConfiguration.7.3.230626-1\lib\net462\Uniform.ItemBasedConfiguration.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Licensing, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Licensing.7.2.230222-1\lib\net45\Uniform.Licensing.dll</HintPath>
+    <Reference Include="Uniform.Licensing, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Licensing.7.3.230626-1\lib\net45\Uniform.Licensing.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Licensing.Sitecore, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Licensing.Sitecore.7.2.230222-1\lib\net452\Uniform.Licensing.Sitecore.dll</HintPath>
+    <Reference Include="Uniform.Licensing.Sitecore, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Licensing.Sitecore.7.3.230626-1\lib\net452\Uniform.Licensing.Sitecore.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Preview.Core, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Preview.Core.7.2.230222-1\lib\net462\Uniform.Preview.Core.dll</HintPath>
+    <Reference Include="Uniform.Preview.Core, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Preview.Core.7.3.230626-1\lib\net462\Uniform.Preview.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Uniform.Sitecore.Admin, Version=7.2.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Uniform.Sitecore.Admin.7.2.230222-1\lib\net462\Uniform.Sitecore.Admin.dll</HintPath>
+    <Reference Include="Uniform.Sitecore.Admin, Version=7.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Uniform.Sitecore.Admin.7.3.230626-1\lib\net462\Uniform.Sitecore.Admin.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -177,7 +177,7 @@
     <Content Include="App_Config\Include\Uniform\Uniform.Deployment.HostedService.ItemBasedConfiguration.config" />
     <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Incremental.config" />
     <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Incremental.ItemBasedConfiguration.config" />
-    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.UndeployUnpublishedItems.disabled" />
+    <Content Include="App_Config\Include\Uniform\Uniform.Deployment.UndeployUnpublishedItems.config.disabled" />
     <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Warnings.config.disabled" />
     <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Netlify.config" />
     <Content Include="App_Config\Include\Uniform\Uniform.Deployment.Netlify.ItemBasedConfiguration.config" />
